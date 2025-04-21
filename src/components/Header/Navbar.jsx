@@ -4,12 +4,12 @@ import { Link } from "react-router";
 const Navbar = () => {
   const links = (
     <>
-     <Link to={} > <li>
+     <Link to='/' > <li>
         <a>Home</a>
       </li></Link>
-      <li>
+      <Link to='/listedbook' ><li>
         <a>Listed Books</a>
-      </li>
+      </li></Link>
       <li>
         <a>Pages to Read</a>
       </li>

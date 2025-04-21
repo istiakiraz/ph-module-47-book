@@ -6,6 +6,7 @@ import Root from '../pages/Root/Root';
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import Home from '../pages/Home/Home';
 import ListedBook from '../pages/ListedBook/ListedBook';
+import BookDetails from '../pages/BookDetails/BookDetails';
   
 
 export const router = createBrowserRouter([
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
         {
             path: "/listedbook",
             Component: ListedBook
+        },
+        {
+            path: "/bookdetails/:id",
+            Component: BookDetails
         }
       ]
     },
