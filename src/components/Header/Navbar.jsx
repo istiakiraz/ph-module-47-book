@@ -5,13 +5,13 @@ const Navbar = () => {
   const links = (
     <>
      <Link to='/' > <li>
-        <a>Home</a>
+        <button className="  border-none bg-white hover:btn " >Home</button>
       </li></Link>
       <Link to='/listedbook' ><li>
-        <a>Listed Books</a>
+        <button className="  border-none bg-white hover:btn ">Listed Books</button>
       </li></Link>
       <li>
-        <a>Pages to Read</a>
+        <button className="  border-none bg-white hover:btn ">Pages to Read</button>
       </li>
     </>
   );

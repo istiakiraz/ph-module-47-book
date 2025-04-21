@@ -7,6 +7,8 @@ const Books = ({data}) => {
 
     
 
+    
+
     // const [allBooks, setAllBooks] = useState([])
 
     // useEffect(()=>{
@@ -22,7 +24,7 @@ const Books = ({data}) => {
             <Suspense fallback= {<span>loading...</span>} >
             <div className=' grid grid-cols-1 md:grid-cols-2 pl-5 lg:grid-cols-3 w-9/12 mx-auto   '>
             {
-                data.map((book)=> <Book key={book.bookId} book={book} ></Book>)
+               data.map((book)=> <Book key={book.bookId} book={book} ></Book>)
             }
             </div>
             </Suspense>
